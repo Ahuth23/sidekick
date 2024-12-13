@@ -1,0 +1,6 @@
+if SHIELD_SIDEKICK
+
+config ZMK_KEYBOARD_NAME
+    default "sidekick"
+
+endif
