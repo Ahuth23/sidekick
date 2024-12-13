@@ -1,16 +1,13 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: sidekick
-      urlbase: https://github.com/Ahuth23/sidekick
+      url-base: https://github.com/Ahuth23/sidekick
+    # Additional modules containing boards/shields/custom code can be listed here as well
+    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: sidekick
-      remote: zmkfirmware
-      revision: main
   self:
     path: config
