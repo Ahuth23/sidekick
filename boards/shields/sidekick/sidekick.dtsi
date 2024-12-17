@@ -17,9 +17,9 @@
         //   Key 8 | Key 9 | Key 10 | Key 11 | Key 12 | Key 13 | Key 14
             RC(1,0) RC(1,1) RC(1,2) RC(1,3) RC(1,4) RC(1,5) RC(1,6)
         //   Key 15 | Key 16 | Key 17
-            RC(2,0) RC(2,1) RC(2,2)
+            RC(2,3) RC(2,4) RC(2,5)
        //   Key 18 | Key 19 | Key 20 | Key 21 | Key 22
-            RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4)
+            RC(3,1) RC(3,3) RC(3,4) RC(3,5) RC(3,6)
         //   Key 23 | Key 24 | Key 25 | Key 26 | Key 27
             RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4)
         >;
